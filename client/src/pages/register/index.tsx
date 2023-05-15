@@ -1,0 +1,28 @@
+import { Card, Form, Row, Space, Typography } from "antd";
+import CustomInput from "../../components/custom-input";
+import PasswordInput from "../../components/password-input";
+import CustomButton from "../../components/custom-button";
+import { Link } from "react-router-dom";
+
+const Register = () => {
+  return (
+    <Row align="middle" justify="center">
+      <Card title="Register" style={{ width: "30rem" }}>
+        <Form onFinish={() => null}>
+          <CustomInput name="name" placeholder="Name" />
+          <CustomInput type="email" name="email" placeholder="Email" />
+          <PasswordInput name="password" placeholder="Password" />
+          <PasswordInput name="confirmPassword" placeholder="Confirm Password" />
+          <CustomButton htmlType="submit" type="primary" children="Register" />
+        </Form>
+        <Space direction="vertical" size="large">
+          <Typography.Text>
+            Already have account? <Link to="/login">Login</Link>
+          </Typography.Text>
+        </Space>
+      </Card>
+    </Row>
+  );
+};
+
+export default Register;
