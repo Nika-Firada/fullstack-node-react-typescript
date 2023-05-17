@@ -19,9 +19,9 @@ Authentication and Security: User authentication is implemented using JWT (JSON 
 Getting Started
 To run the app locally, follow these steps:
 
-Clone the repository: git clone https://github.com/Nika-Firada/fullstack-node-react-typescript
-Install dependencies for the backend: cd /fullstack-node-react-typescript npm install
-Install dependencies for the frontend: cd client && npm install
-Start the server: cd /fullstack-node-react-typescript npm run dev
-Access the app in your browser at http://localhost:3000
+Clone the repository: git clone https://github.com/Nika-Firada/fullstack-node-react-typescript,
+Install dependencies for the backend: cd /fullstack-node-react-typescript npm install,
+Install dependencies for the frontend: cd client && npm install,
+Start the server: cd /fullstack-node-react-typescript npm run dev,
+Access the app in your browser at http://localhost:3000,
 Please make sure to set up the required environment variables for the backend, such as the database connection details and JWT secret key.
